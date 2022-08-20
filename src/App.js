@@ -1,5 +1,5 @@
 import "./Style/App.css";
-import Resource from "./Components/Resourec";
+import Resource from "./Components/Resource/Resource";
 
 function App() {
   return (
