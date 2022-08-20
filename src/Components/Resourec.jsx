@@ -3,7 +3,7 @@ import Button from "@mui/material/Button";
 import "../Style/App.css";
 
 export default function App() {
-    const [resourceType, setResourceType] = useState('posts')
+    const [resourceType, setResourceType] = useState('Posts')
     const [items, setItems] = useState([])
     useEffect(() => {
         fetch(`https://jsonplaceholder.typicode.com/${resourceType}`)
@@ -26,14 +26,14 @@ export default function App() {
                     variant="contained"
                     color="secondary"
                     style={{ marginRight: "10px" }}
-                    onClick={() => setResourceType('comments')}
+                    onClick={() => setResourceType('Comments')}
                 >
                     Comments
                 </Button>
                 <Button
                     variant="contained"
                     color="success"
-                    onClick={() => setResourceType('users')}
+                    onClick={() => setResourceType('Users')}
 
                 >
                     Users
