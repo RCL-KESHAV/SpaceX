@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Button from "@mui/material/Button";
-import "../Style/App.css";
+import "../../Style/App.css";
 
-export default function App() {
+export default function Resource() {
     const [resourceType, setResourceType] = useState('Posts')
     const [items, setItems] = useState([])
     useEffect(() => {
