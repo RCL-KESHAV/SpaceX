@@ -17,5 +17,9 @@ body {
 
 .Resource {
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 2rem;
+}
+.Resize{
+  text-align: left;
+  font-size: 3.5rem;
 }
