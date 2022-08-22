@@ -9,6 +9,10 @@ export default function Resource() {
         fetch(`https://jsonplaceholder.typicode.com/${resourceType}`)
             .then(response => response.json())
             .then(json => setItems(json))
+            console.log("Without Return Code")
+            return(
+                console.log("With Return Code")
+            )
     }, [resourceType])
     return (
         <>
